@@ -1,0 +1,64 @@
+<!doctype html><html lang="zh-CN"><head><title id="title">2019百度AI开发者大会</title><meta http-equiv="Content-type" content="text/html" charset="utf-8"><meta name="viewport" content="width=device-width,user-scalable=no"><meta name="keywords" content="百度AI开发者大会,2019百度AI开发者大会，百度开发者大会"><meta name="description" content="百度AI开发者大会于2019年7月3日-7月4日在北京国家会议中心举办，诚邀开发者及合作伙伴参加。首次集中展现百度AI生态重要战略，技术，业务进展，解决方案，释放生态势能。"><script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script><script src="https://s.bdstatic.com/common/openjs/aio.js"></script><link rel="shortcut icon" href="http://127.0.0.1:3003/c_logo.png"></head><body><script>(function (doc, win) {
+        var docEl = doc.documentElement,//获取html标签
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if (clientWidth >= 750) {
+                    // 这里的640 取决于设计稿的宽度
+                    docEl.style.fontSize = '100px';
+                } else {
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                }
+            };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+
+    function isLocalStorageSupported() {
+        var testKey = 'test',
+            storage = window.localStorage;
+
+        try {
+            storage.setItem(testKey, 'testValue');
+            storage.removeItem(testKey);
+            if (storage.getItem('language') == 'en') {
+                document.getElementById("title").innerHTML = 'Baidu Create';
+            }
+            else {
+                document.getElementById("title").innerHTML = '2019百度AI开发者大会';
+            }
+            return true;
+        } catch (error) {
+            return false;
+        }
+
+    }
+
+    if (!isLocalStorageSupported()) {
+        alert('您可能正在使用浏览器的隐私模式，由于网站中使用了Html5的本地存储技术，Safari的隐私模式不支持此技术，请退出隐私模式，或者使用其它浏览器访问本链接');
+    }
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b4811c66e7ca707203a059b6a55c62fe";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();</script><script>Box.nativeShare({
+//内容
+        content: "2019百度AI开发者大会邀请您来参加",
+
+        iconUrl: "https://create.baidu.com/wxlogo.jpg",
+
+        imageUrl: "https://create.baidu.com/wxlogo.jpg",
+
+//分享的url
+
+        linkUrl: "https://create.baidu.com/",
+
+//分享的面板，一般是all，全面版
+
+        title: "2019百度AI开发者大会"
+
+    });</script><div id="root" style="height: 100%"></div><script type="text/javascript" src="http://127.0.0.1:3003/vendor.d6d743faf1d5185cb8bd.js"></script><script type="text/javascript" src="http://127.0.0.1:3003/index.d6d743faf1d5185cb8bd.js"></script></body></html>
