@@ -1,2 +1,0 @@
-webpackJsonp([26],{"9KMD":function(e,n,i){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),i.d(n,"IsPcOrNot",function(){return r});var t=i("Zrlr"),o=i.n(t),r=function e(){o()(this,e)};r.get=function(){var e=window.navigator.userAgent.toLocaleLowerCase();return-1==e.indexOf("iphone")&&-1==e.indexOf("ipad")&&-1==e.indexOf("ipod")&&-1==e.indexOf("android")},n.default=r}},["9KMD"]);
-//# sourceMappingURL=IsPcOrNot.f827121860909216720b.js.map
