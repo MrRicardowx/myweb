@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>纵青春·AI自由</title><link href=/campusweixin/css/fans.9aa68629e0f2dee9ef64a14aa4429498.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/campusweixin/js/manifest.f1ab9ad4b14fe48a9007.js></script><script type=text/javascript src=/campusweixin/js/vendor.6e3235ffbbbbd2e7b07b.js></script><script type=text/javascript src=/campusweixin/js/fans.3d7a83dc522fe10d750b.js></script></body></html><script>(function (doc, win) {
+    var docEl = doc.documentElement,//获取html标签
+      resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+      recalc = function () {
+        var clientWidth = docEl.clientWidth;
+        if (!clientWidth) return;
+        if(clientWidth>=750){
+          // 这里的640 取决于设计稿的宽度
+          docEl.style.fontSize = '100px';
+        }else{
+          docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+        }
+      };
+    if (!doc.addEventListener) return;
+    win.addEventListener(resizeEvt, recalc, false);
+    doc.addEventListener('DOMContentLoaded', recalc, false);
+  })(document, window);</script>
